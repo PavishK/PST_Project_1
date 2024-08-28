@@ -428,3 +428,32 @@
     filter: opacity(50%);
 }   
 }
+
+/*------------------------------------About-----------------------------------*/
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:8rem 0 10rem 0;
+    gap: 60px;
+    background-color: #ffefd0;
+    padding: 20px;
+}
+
+.about-container .about-item:nth-child(1){
+    width:40rem;
+}
+.about-container h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.about-container p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px
+}
+
+.about-container img{
+    width: 80%;
+}
